@@ -41,13 +41,8 @@
 # example.
 
 drupal/acquia_connector:
-  core_matrix:
-    '>=9':
-      version: 2.x
-      version_dev: 2.x-dev
-    '*':
-      version: 1.x
-      version_dev: 1.x
+  version: 1.x
+  version_dev: 1.x
 
 drupal/acquia_contenthub:
   core_matrix:
